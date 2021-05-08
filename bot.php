@@ -22,10 +22,8 @@ $welcome = "Welcome $name";
 $welcome2 = "Main Menu";
 $select = "Select one";
 
-//databse conection
-//$con = mysqli_connect("fdb18.awardspace.net","2560776_pk","World@123","2560776_pk");
-//mysqli_select_db($con,"2560776_pk");
-$con = mysqli_connect("localhost","id12999274_dump","1999@G33thika");
+
+$con = mysqli_connect("localhost","username","password");
 
 
 //if reg
